@@ -48,7 +48,7 @@ main .show__me {
 
 .forget__your {
     position: relative;
-    margin-right: 300px;
+    margin-right: 190px;
 }
 
 .forget__your h2 {
@@ -88,38 +88,77 @@ main .show__me {
 }
 
 .most-picked {
-    position: absolute;
-    width: 144px;
-    height: 36px;
-    left: 75px;
-    top: 640px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    /* identical to box height */
-
-
-    color: #152C5B;
+    margin-top: 95px;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.container {
-    position: absolute;
-    width: 360px;
-    height: 460px;
-    left: 75px;
-    top: 689px;
-
-    background: linear-gradient(180deg, rgba(44, 155, 217, 0) 49.33%, rgba(196, 196, 196, 0.5) 100%);
-    border-radius: 15px;
+.container-kolam{
+    display:flex;
+    flex-direction: row;
+    margin-left:  auto;
+    margin-right: 30px;
 }
 
 .kolam{
-position: absolute;
-width: 360px;
-height: 215px;
-left: 608px;
-top: 696px;
+    possition: relative;
+    border-radius: 15px;
+}
+
+.kolam2-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.kolam1{
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.kolam2{
+    position: relative;
+    border-radius: 15px;
+}
+
+.kolam4-5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.kolam3{
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.kolam4{
+    position: relative;
+    border-radius: 15px;
+}
+
+.box-pink{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    width: 180px;
+    height: 40px;
+    border-radius: 0px 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: #FF498B;
+}
+
+.box-pink p{
+    color: white;
+}
+
+.box-pink span{
+    font-weight: bold;
 }
