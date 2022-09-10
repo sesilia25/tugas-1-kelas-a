@@ -1,3 +1,7 @@
+* {
+    font-family: Poppins;
+}
+
 body {
     box-sizing: border-box;
     padding: 0;
@@ -94,7 +98,7 @@ main .show__me {
     padding-left: auto;
     padding-right: auto;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
 }
 
 .container-kolam{
@@ -107,6 +111,7 @@ main .show__me {
 .kolam{
     possition: relative;
     border-radius: 15px;
+    
 }
 
 .kolam2-3{
@@ -161,4 +166,103 @@ main .show__me {
 
 .box-pink span{
     font-weight: bold;
+}
+
+.backyard{
+    margin-top: 95px;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kontainer-biasalah{
+    display: flex;
+    flex-direction: row;
+}
+
+.pic1{
+    position: relative;
+    margin-right: 30px;
+}
+
+.pic2{
+    position: relative;
+    margin-right: 30px;
+}
+
+.pic3{
+    position: relative;
+    margin-right: 30px;
+}
+
+.pic4{
+    position: relative;
+    margin-right: 30px;
+}
+
+.hotels{
+    margin-top: 95px;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-hotel{
+    display: flex;
+    flex-direction: row;
+}
+
+.apartement{
+    margin-top: 95px;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-apartement{
+    display: flex;
+    flex-direction: row;
+}
+
+.keluarga {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    padding: auto;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.senang1 {
+    flex-grow: 2;
+    margin: auto;
+    padding: auto;
+    margin-left: 50px;
+}
+
+.img-bintang{
+    display: flex;
+    flex-direction: row;
+}
+
+.senang1 button {
+    margin-top: 30px;
+    color: white;
+    background-color: #3252DF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
